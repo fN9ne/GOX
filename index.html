@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<!-- кодировка -->
+		<meta charset="utf-8">
+		<!-- картинка сайта -->
+		<link rel="shortcut icon" href="img/GOX.png">
+		<!-- адаптив под девайсы -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- название сайта -->
+		<title>GOX</title>
+		<!-- стили -->
+		<link rel="stylesheet" href="css/style.min.css">
+		<!-- подключение Material Icons -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- подключение jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- подключение Font Awesome -->
+		<script src="https://kit.fontawesome.com/0466223aa3.js" crossorigin="anonymous"></script>
+		<!-- подключение шрифтов: Montserrat ( 300, 400, 500, 600, 700 ), Scada ( 400, 700 ), Roboto ( 400, 900 ) -->
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@400;900&family=Scada:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!-- хедер -->
+		<header class="header">
+			<div class='header__wrapper _wrapper'>
+				<div class="header__top">
+					<div class="header__burger burger">
+						<div class="burger__button">
+							<i class='material-icons'>menu</i>
+						</div>
+						<ul class="burger__list">
+							<li class="burger__item burger__item_1"><a href="#about" class="burger__link" id="link1">О нас</a></li>
+							<li class="burger__item burger__item_2"><a href="#transport" class="burger__link" id="link2">Транспорт</a></li>
+							<li class="burger__item burger__item_3"><a href="#charging" class="burger__link" id="link3">Зарядка</a></li>
+							<li class="burger__item burger__item_4"><a href="#app" class="burger__link" id="link4">Приложение</a></li>
+							<li class="burger__item burger__item_5"><a href="#contacts" class="burger__link" id="link5">Контакты</a></li>
+						</ul>
+						<div class="burger__background"></div>
+					</div>
+					<div class="header__logo"><span>GO</span>X</div>
+					<nav class="header__menu">
+						<ul class="header__list">
+							<li class="header__item"><a href="#about" class="header__link">О нас</a></li>
+							<li class="header__item"><a href="#transport" class="header__link">Транспорт</a></li>
+							<li class="header__item"><a href="#charging" class="header__link">Зарядка</a></li>
+							<li class="header__item"><a href="#app" class="header__link">Приложение</a></li>
+							<li class="header__item"><a href="#contacts" class="header__link">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="header__account">Go, <div class="name">Денис</div></div>
+					<div class="header__account_menu">
+						<a href="" class="header__account_item header__account_item_1">Профиль</a>
+						<a href="" class="header__account_item header__account_item_2">Настройки</a>
+						<a href="" class="header__account_item header__account_item_3">Выход</a>
+						<div></div>
+					</div>
+					<div class="header__account_background"></div>
+				</div>
+				<div class="header__middle">
+					<div class="header__content">
+						<div class="header__slang">
+							<p>Быстро!</p>
+							<p>Легко!</p>
+							<p>Удобно!</p>
+						</div>
+						<div class="header__subtitle">Пробки в городе? Не знаете как добраться до работы? Scooter-sharing - лучший способ, добраться до место назначения в вашем городе!</div>
+						<div class="header__buttons">
+							<a href="" class="header__button header__button_1"><div>В дорогу!</div></a>
+							<a href="" class="header__button header__button_2"><div>Ваш город</div></a>
+						</div>
+					</div>
+					<img src="img/main.png" alt="" class="header__picture">
+				</div>
+				<div class="header__bottom">
+					<div class="header__bottom_button">
+						<div class="header__bottom_dot"></div>
+						<a href="#about" class="header__bottom_arrow"></a>
+					</div>
+					<ul class="header__bottom_list">
+						<li class="header__bottom_item"><a href="" class="header__bottom_link">app</a></li>
+						<li class="header__bottom_item"><a href="" class="header__bottom_link">gmail</a></li>
+						<li class="header__bottom_item"><a href="" class="header__bottom_link">telegram</a></li>
+						<li class="header__bottom_item"><a href="" class="header__bottom_link">instagram</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!-- блок « о нас » -->
+		<div class="about-us" id="about">
+			<div class='about-us__wrapper _wrapper'>
+				<div class="about-us__background_text">О НАС</div>
+				<div class="about-us__slider">
+					<div class="about-us__slider_item">
+						<img src="img/scooter.png" class="about-us__slider_picture">
+					</div>
+					<div class="about-us__slider_item">
+						<img src="img/scooter.png" class="about-us__slider_picture">
+					</div>
+					<div class="about-us__slider_item">
+						<img src="img/scooter.png" class="about-us__slider_picture">
+					</div>
+				</div>
+				<div class="about-us__slider_arrows"></div>
+				<div class="about-us__text">
+					<div class="about-us__title">Поможем добраться!</div>
+					<div class="about-us__subtitle"><p>GoX - украинская компания шеринга электрических самокатов и скутеров для вашего города.</p><p>Компания, занимающиеся e-scooter sharing, фокусируются на "проблеме последней мили" — небольшом расстоянии между транзитной точкой, например, станцией метро и домом или офисом. Это расстояние слишком велико, чтобы пройти его пешком, и слишком мало, чтобы ехать на машине.</p>
+					</div>
+					<a href="" class="about-us__link link">Подробнее</a>
+				</div>
+			</div>
+		</div>
+		<!-- блок « транспорт » -->
+		<div class="transport" id="transport">
+			<div class='transport__wrapper _wrapper'>
+				<div class="transport__background_text">Транспорт</div>
+				<div class="transport__content">
+					<div class="transport__infobox infobox infobox_1">
+						<img src="img/Group 12.png" class="infobox__picture">
+						<div class="infobox__transport">Электросамокат</div>
+						<div class="infobox__model">Segway Ninebot ES4</div>
+						<div class="infobox__info">
+							<div class="infobox__item">
+								<div class="infobox__parameter_name">Зарядка</div>
+								<div class="infobox__parameter">4 часа</div>
+							</div>
+							<div class="infobox__item">
+								<div class="infobox__parameter_name">Скорость</div>
+								<div class="infobox__parameter">30 км/час</div>
+							</div>
+							<div class="infobox__item">
+								<div class="infobox__parameter_name">Вес</div>
+								<div class="infobox__parameter">14 кг</div>
+							</div>
+						</div>
+						<div class="infobox__container">
+							<img src="img/stars.svg" class="infobox__rating">
+							<a href="" class="infobox__button">Арендовать</a>
+						</div>
+					</div>
+					<div class="transport__infobox infobox activated infobox_2">
+						<img src="img/Group 12.png" class="infobox__picture">
+						<div class="infobox__transport">Электросамокат</div>
+						<div class="infobox__model">Segway Ninebot ES4</div>
+						<div class="infobox__info">
+							<div class="infobox__item">
+								<div class="infobox__parameter_name">Зарядка</div>
+								<div class="infobox__parameter">4 часа</div>
+							</div>
+							<div class="infobox__item">
+								<div class="infobox__parameter_name">Скорость</div>
+								<div class="infobox__parameter">30 км/час</div>
+							</div>
+							<div class="infobox__item">
+								<div class="infobox__parameter_name">Вес</div>
+								<div class="infobox__parameter">14 кг</div>
+							</div>
+						</div>
+						<div class="infobox__container">
+							<img src="img/stars.svg" class="infobox__rating">
+							<a href="" class="infobox__button">Арендовать</a>
+						</div>
+					</div>
+					<div class="transport__infobox infobox infobox_3">
+						<img src="img/Group 12.png" class="infobox__picture">
+						<div class="infobox__transport">Электросамокат</div>
+						<div class="infobox__model">Segway Ninebot ES4</div>
+						<div class="infobox__info">
+							<div class="infobox__item">
+								<div class="infobox__parameter_name">Зарядка</div>
+								<div class="infobox__parameter">4 часа</div>
+							</div>
+							<div class="infobox__item">
+								<div class="infobox__parameter_name">Скорость</div>
+								<div class="infobox__parameter">30 км/час</div>
+							</div>
+							<div class="infobox__item">
+								<div class="infobox__parameter_name">Вес</div>
+								<div class="infobox__parameter">14 кг</div>
+							</div>
+						</div>
+						<div class="infobox__container">
+							<img src="img/stars.svg" class="infobox__rating">
+							<a href="" class="infobox__button">Арендовать</a>
+						</div>
+					</div>
+				</div>
+				<div class="transport__text">
+					<div class="transport__title">ПОЕЗДКИ С ВЕТЕРКОМ</div>
+					<div class="transport__subtitle">Стремительно передвигайтесь, минуя пробки и сокращая путь по небольшим улочкам. Электросамокат может похвастаться максимальной скоростью до 30 км/час, в то время как средняя скорость автомобиля на перегруженных улицах больших городов составляет около 25 км/час. А цифровой спидометр позволяет держать ситуацию под контролем.</div>
+					<a href="" class="transport__link link">Подробнее</a>
+				</div>
+				<div class="transport__picker">
+					<label>
+						<input type="radio" name="transport" id="transport1">
+						<div class="transport__elipse">
+							<div class="transport__elipse_inner">
+								<img src="img/t-segway.png">
+							</div>
+						</div>
+					</label>
+					<label>
+						<input type="radio" name="transport" checked id="transport2">
+						<div class="transport__elipse">
+							<div class="transport__elipse_inner">
+								<img src="img/t-scooter.png">
+							</div>
+						</div>
+					</label>
+					<label>
+						<input type="radio" name="transport" id="transport3">
+						<div class="transport__elipse">
+							<div class="transport__elipse_inner">
+								<img src="img/t-bike.png">
+							</div>
+						</div>
+					</label>
+				</div>
+			</div>
+		</div>
+		<!-- блок « зарядка » -->
+		<div class="charging" id="charging">
+			<div class='charging__wrapper _wrapper'>
+				<div class="charging__text">
+					<div class="charging__text_title">БЕСПРОВОДНАЯ ЗАРЯДКА</div>
+					<div class="charging__text_subtitle">Easy Charge уже доступна в трех разных версиях, способных поддерживать одновременную зарядку от одного до пяти самокатов. Станция может использоваться как внутри помещений, так и на улице, а сам процесс заряда батарей стартует автоматически после установки скутера, причем его продолжительность и эффективность не уступает проводным аналогам.</div>
+					<a href="" class="charging__link link">Подробнее</a>
+				</div>
+				<div class="charging__title">ЗАРЯДКА</div>
+				<div class="charging__picture">
+					<img src="img/power_picture.jpg">
+				</div>
+			</div>
+		</div>
+		<!-- блок « приложение » -->
+		<div class="app" id="app">
+			<div class='app__wrapper _wrapper'>
+				<div class="app__content">
+					<div class="app__text">
+					<div class="app__title">
+						СКАЧАЙ ПРИЛОЖЕНИЕ
+					</div>
+					<div class="app__subtitle">
+						<p>GoX — шеринг электротранспорта. Твой главный помощник в быстром передвижении по городу.</p>
+						<p>Мы делаем GoX, чтобы ты передвигался по своим делам быстро, без пробок и с удовольствием.</p>
+					</div>
+					</div>
+					<div class="app__buttons">
+					<a href="" class="app__button app__button_1">App Store</a>
+					<a href="" class="app__button app__button_2">Play Market</a>
+					</div>
+				</div>
+				<div class="app__picture">
+					<img src="img/phone.png">
+				</div>
+			</div>
+		</div>
+		<!-- блок « контакты » -->
+		<div class="contacts" id="contacts">
+			<div class='contacts__wrapper _wrapper'>
+				<div class="contacts__main">
+					<div class="contacts__title">КОНТАКТЫ</div>
+					<div class="contacts__text contacts__text_1">
+						<div class="contacts__text_item contacts__lined contacts__lined_1">
+							<div class="contacts__text_name">телефон</div>
+							<div class="contacts__text_parametr"><p>(066) 120 5203</p><p>(096) 423 5123</p></div>
+						</div>
+						<div class="contacts__text_item">
+							<div class="contacts__text_name">рабочие часы</div>
+							<div class="contacts__text_parametr"><p>пн - пт: 9:00 - 19:00</p><p>сб, вс: 9:00 - 17:00</p></div>
+						</div>
+						<div class="contacts__text_item">
+							<div class="contacts__text_name">адрес</div>
+							<div class="contacts__text_parametr"><p>улица Хрещатик, 27, Киев</p></div>
+						</div>
+						<div class="contacts__text_item contacts__lined contacts__lined_2">
+							<div class="contacts__text_name">электроная почта</div>
+							<div class="contacts__text_parametr"><p>egox@gmail.com</p></div>
+						</div>
+					</div>
+					<div class="contacts__text contacts__text_2 ContactsHidden">
+						<div class="contacts__text_item contacts__lined contacts__lined_1">
+							<div class="contacts__text_name">телефон</div>
+							<div class="contacts__text_parametr"><p>(021) 992 8812</p><p>(088) 812 1722</p></div>
+						</div>
+						<div class="contacts__text_item">
+							<div class="contacts__text_name">рабочие часы</div>
+							<div class="contacts__text_parametr"><p>пн - пт: 9:00 - 20:00</p><p>сб, вс: 9:00 - 17:00</p></div>
+						</div>
+						<div class="contacts__text_item">
+							<div class="contacts__text_name">адрес</div>
+							<div class="contacts__text_parametr"><p>улица Данилевского, 2, Харьков</p></div>
+						</div>
+						<div class="contacts__text_item contacts__lined contacts__lined_2">
+							<div class="contacts__text_name">электроная почта</div>
+							<div class="contacts__text_parametr"><p>egox@gmail.com</p></div>
+						</div>
+					</div>
+					<a target="_blank" href="https://www.google.ru/maps/place/ул.+Крещатик,+27,+Киев,+Украина,+01001/@50.4440341,30.5174452,16z/data=!4m5!3m4!1s0x40d4ce55ddd7902f:0x1513e60f6016a532!8m2!3d50.4441397!4d30.5218548" class="contacts__map"><img src="img/map 1.jpg"></a>
+				</div>
+				<div class="contacts__addition">
+					<div class="contacts__city">
+						<label>
+							<input type="radio" checked name="city" id="city1">
+							<span>КИЕВ</span>
+						</label>
+						<label>
+							<input type="radio" name="city" id="city2">
+							<span>ХАРЬКОВ</span>
+						</label>
+					</div>
+					<a href="" class="contacts__button">ОБРАТНАЯ СВЯЗЬ</a>
+					<div class="contacts__social">
+						<a href="" class="contacts__social_link">gmail</a>
+						<a href="" class="contacts__social_link">telegram</a>
+						<a href="" class="contacts__social_link">instagram</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- футер -->
+		<footer class="footer">
+			<div class='footer__wrapper _wrapper'>
+				<span>(C) 2020, компания GOX</span>
+				<a href="">Политика конфиденциальности</a>
+			</div>
+		</footer>
+		<!-- файл скриптов -->
+		<script src="js/script.min.js"></script>
+	</body>
+</html>
